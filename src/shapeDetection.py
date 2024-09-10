@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-image = cv2.imread('assets/square.jpg')
+image = cv2.imread('assets/rectangle.jpg')
 
 # Convert to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
